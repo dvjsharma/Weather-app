@@ -1,5 +1,5 @@
 Location =(event)=>{
-    if(event.key==="Enter" || event.type==="click"){  //its not Click smh
+    if(event.key==="Enter" || event.type==="click"){
         ApiFetch();
     }
 }
