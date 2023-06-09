@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather app</title>
+    <title>Get your city's weather!</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&   display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="icon" href="img-src/favicon.png">
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
@@ -34,8 +35,43 @@
                 <br>
                 <div class="search">
                     <input type="text" id="input-text" placeholder="Enter Location" onkeydown="Location(event)">
-                    <button id="input-btn" onclick="Location()"><i class="bi bi-search"></i></button>
+                    <button id="input-btn" onclick="Location(event)"><i class="bi bi-search"></i></button>
                 </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel-right">
+            <div class="parent">
+                <div id="time">
+                    Time
+                </div>
+                <div id="flex">
+                    <div id="temp">
+                        Temp
+                    </div>
+                    <div id="desc">
+                        Disc
+                    </div>
+                </div>
+                <div id="b_desc">
+                    Description
+                </div>
+                <div id="container_1">
+                    Real feel
+                    Maximum Temp.
+                    Minumum  Temp.
+                </div>
+                <div id="container_2">
+                    <div class="container_1">
+                        Coluds
+                        <br>
+                        Preassure
+                    </div>
+                    <div class="container_1">
+                        humidity
+                        <br>
+                        wind
+                    </div>
                 </div>
             </div>
         </div>
