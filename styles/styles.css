@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #c2c1bd;
 }
 .container{
     display:flex;
@@ -112,4 +113,81 @@ textarea:focus, input-text:focus{
     border: none;
     color: white;
     font-weight: bolder;
+}
+.panel-right{
+    width: 40%;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    width: 90%;
+    background-color: #a1a7a5;
+    border-radius: 35px;
+}
+#time{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    font-size: xx-large;
+    text-align: center;
+}
+#flex{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+#temp{
+    font-size: xx-large;
+}
+#desc{
+    font-size: xx-large;
+}
+#b_desc{
+    margin-top: 2%;
+    text-align: center;
+    font-size: x-large;
+}
+#container_1{
+    display: flex;
+    line-height: 35px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7%;
+    background-color: #3d6d6f;
+    width: 85%;
+    padding: 14px;
+    border-radius: 25px;
+}
+#container_2{
+    display: flex;
+    line-height: 35px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7%;
+    background-color: #3d6d6f;
+    width: 85%;
+    padding: 14px;
+    border-radius: 25px;
+}
+.container_1{
+    display: flex;
+    line-height: 35px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #3d6d6f;
+    width: 85%;
+    padding: 14px;
+    border-radius: 25px;
 }
